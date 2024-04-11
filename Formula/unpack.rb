@@ -12,7 +12,7 @@ class Unpack < Formula
     end
   
     def install
-      bin.install "un-pack"
+        bin.install "un-pack" => "unpack"
     end
   end
   
